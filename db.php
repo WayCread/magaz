@@ -1,8 +1,8 @@
 <?php
 
-$host = 'databases.000webhost.com';
+$host = 'databases.0010webhost.com';
 $user = 'id18047510_root';
-$pswd = 'Base_123123123';
+$pswd = '111';
 $db = 'id18047510_magaz'; 
 
 $mysqli = new mysqli($host, $user, $pswd, $db); // Створюємо нове підключення з назвою $mysqli за допомогою створення об'єта класу mysqli. Параметри підключення по порядку: сервер, логін, пароль, БД
