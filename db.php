@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost';
-$user = 'root';
-$pswd = '';
-$db = 'magaz'; 
+$host = 'databases.000webhost.com';
+$user = 'id18047510_root';
+$pswd = 'Base_123123123';
+$db = 'id18047510_magaz'; 
 
 $mysqli = new mysqli($host, $user, $pswd, $db); // Створюємо нове підключення з назвою $mysqli за допомогою створення об'єта класу mysqli. Параметри підключення по порядку: сервер, логін, пароль, БД
 $mysqli->set_charset("utf8"); // Встановлюємо кодування utf8
